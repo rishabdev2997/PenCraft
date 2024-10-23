@@ -24,8 +24,8 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
             // alert the user that request failed
         }
     }
-
-    return <div className="min-h-screen bg-gradient-to-b from-red-100 via-blue-100 to-transparent flex justify-center flex-col">
+    
+    return <div className="min-h-screen bg-gradient-to-b from-transparent via-orange-50 to-purple-100 flex justify-center flex-col">
         <div className="flex justify-center">
             <div>
                 <div className="px-10">
